@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  /* background-color: #202040; */
+  background-image: url(images/background.jpg);
+}
+
+
+
+#level-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: white;
+  letter-spacing: 3px;
+  background-color: #ff6363;
+  border-radius: 10px;
+  height: 150;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #ff6363;
+  border-radius: 100%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.udi {
+background-image: url(images/udi.jpg);
+}
+
+.yuval {
+  background-image: url(images/yuval.jpg);
+}
+
+.tal {
+background-image: url(images/tal.jpg);
+}
+
+.daniel {
+  background-image: url(images/daniel.jpg);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
